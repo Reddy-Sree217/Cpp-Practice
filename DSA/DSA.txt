@@ -1,0 +1,10 @@
+﻿1. Intro to DSA
+2. Time Compleexity and Big O
+3. Asymptotic Notations(Big O,Big Omega,Big Theta)
+4. Time Complexity(Best,Worst,Avg)
+5. Examples on Time Complexity
+6. Arrays and ADT(Abstract Data type)
+7. Arrays as ADT
+8. Implementing array as ADT
+9. 
+

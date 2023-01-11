@@ -1,0 +1,47 @@
+#
+inclu
+de<io
+strea
+m>#in
+clude
+<fstr
+eam>u
+sing 
+names
+pace 
+std;i
+nt ma
+in(){
+retur
+n 0;}
+#incl
+ude<i
+ostre
+am>#i
+nclud
+e<fst
+ream>
+using
+ name
+space
+ std;
+int m
+ain()
+{retu
+rn 0;
+}#inc
+lude<
+iostr
+eam>#
+inclu
+de<fs
+tream
+>usin
+g nam
+espac
+e std
+;int 
+main(
+){ret
+urn 0
+;}

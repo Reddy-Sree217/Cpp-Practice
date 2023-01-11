@@ -1,0 +1,74 @@
+#include <iostream>
+using namespace std;
+
+class Node
+{
+public:
+    int data;
+    Node *left;
+    Node *right;
+
+    Node()
+    {
+        left = NULL;
+        right = NULL;
+        data = 0;
+    }
+    Node(int val)
+    {
+        left = NULL;
+        right = NULL;
+        data = val;
+    }
+};
+
+void InOrderTraversal(Node *root)
+{
+    if (root != NULL)
+    {
+        InOrderTraversal(root->left);
+        cout << root->data << " ";
+        InOrderTraversal(root->right);
+    }
+}
+
+void insert(Node *root, int key)
+{
+    Node *newNode = new Node(key);
+    Node *prev = NULL;
+    while (root != NULL)
+    {
+        prev = root;
+        if (root->data == key)
+            return;
+        else if (root->data > key)
+            root = root->left;
+        else
+            root = root->right;
+    }
+    if (prev->data > key)
+        prev->left = newNode;
+    else
+        prev->right = newNode;
+}
+
+int main()
+{
+    Node *root = new Node(30);
+    Node *p1 = new Node(20);
+    Node *p2 = new Node(40);
+    Node *c1 = new Node(10);
+    Node *c2 = new Node(25);
+
+    root->left = p1;
+    root->right = p2;
+    p1->left = c1;
+    p1->right = c2;
+    InOrderTraversal(root);
+    cout << endl;
+    insert(root, 15);
+    insert(root, 5);
+    insert(root, 35);
+    InOrderTraversal(root);
+    return 0;
+}

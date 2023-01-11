@@ -1,0 +1,36 @@
+Code With Harry
+
+1. Installing VsCode, G++ Compiler
+2. Basic Structure of C++ Programme
+3. Variables and Comments
+4. Data Types
+5. Input & Output
+6. Operators & Header Files
+7.  Reference Variables and Type Casting
+8. Constants, manipulators(iomanip), pesedence order
+9. if-else , switch case
+10. for,while,do-while loop
+11. Break and continue statements
+12. Pointers
+13. Arrays and Pointers
+14. Structs,Unions and Enums
+15. Functions
+16. Call by value and Call by reference
+17. Inline function and default arguments,constant arguments
+18. Recursion
+19. Function Overloading
+20. OOP intro
+21. Class & Object && Access Modifiers
+22. Nesting of member functions
+23. memory allocation of objects
+24. Static Data Members & methods
+25. Array of objects & Passing objects in function
+26. Friend Functions
+27. Friend Class
+28. More Examples on friend class and friend function
+29. Constructors
+30. Parameterized constructor
+31. Constructor overloading
+32. Constructor with default arguments
+33. Dynamic initialization of objects
+34. 
